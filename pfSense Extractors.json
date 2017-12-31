@@ -21,8 +21,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,tcp,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 UDP",
       "extractor_type": "regex",
@@ -42,10 +42,10 @@
         "regex_value": "^filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,UDP,.*$"
+      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*udp,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv6 TCP",
       "extractor_type": "regex",
@@ -67,8 +67,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),6,.*,tcp,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv6 UDP",
       "extractor_type": "regex",
@@ -90,8 +90,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),6,.*,UDP,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Echo",
       "extractor_type": "regex",
@@ -113,8 +113,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(request|reply),.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Unreachable Protocol",
       "extractor_type": "regex",
@@ -136,8 +136,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachproto,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Unreachable Port",
       "extractor_type": "regex",
@@ -159,8 +159,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachport,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Unreachable Other",
       "extractor_type": "regex",
@@ -182,8 +182,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(unreach|timexceed|paramprob|redirect|maskreply),.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Need Frag",
       "extractor_type": "regex",
@@ -205,8 +205,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,needfrag,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP TStamp",
       "extractor_type": "regex",
@@ -228,8 +228,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstamp,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP TStamp Reply",
       "extractor_type": "regex",
@@ -251,8 +251,8 @@
       "condition_type": "regex",
       "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstampreply,.*$"
     },
-	
-	
+
+
     {
       "title": "pfSense filterlog: IPv4 ICMP Default",
       "extractor_type": "regex",
